@@ -135,72 +135,6 @@ export default [
     }
   },
   {
-    path: '/device',
-    name: 'Devices',
-    meta: {
-      authRequired: true,
-      userType: [1, 2]
-    },
-    component: () => {
-      return import('../views/pages/devices/index.vue')
-    }
-  },
-  {
-    path: '/device/create',
-    name: 'addDevice',
-    meta: {
-      authRequired: true,
-      userType: [1, 2]
-    },
-    component: () => {
-      return import('../views/pages/devices/create.vue')
-    }
-  },
-  {
-    path: '/device/create/:id',
-    name: 'updateDevice',
-    meta: {
-      authRequired: true,
-      userType: [1, 2]
-    },
-    component: () => {
-      return import('../views/pages/devices/create.vue')
-    }
-  },
-  {
-    path: '/measurements',
-    name: 'Measurements',
-    meta: {
-      authRequired: true,
-      userType: [1, 2]
-    },
-    component: () => {
-      return import('../views/pages/measurements/index.vue')
-    }
-  },
-  {
-    path: '/measurement/create',
-    name: 'addMeasurement',
-    meta: {
-      authRequired: true,
-      userType: [1, 2]
-    },
-    component: () => {
-      return import('../views/pages/measurements/create.vue')
-    }
-  },
-  {
-    path: '/measurement/create/:id',
-    name: 'updateMeasurement',
-    meta: {
-      authRequired: true,
-      userType: [1, 2]
-    },
-    component: () => {
-      return import('../views/pages/measurements/create.vue')
-    }
-  },
-  {
     path: '/faqs',
     name: 'FAQ',
     meta: {
@@ -242,61 +176,6 @@ export default [
     component: () => {
       console.log('Loading Change-password component')
       return import('../views/pages/changePassword/changePassword.vue')
-    }
-  },
-  {
-    path: '/settings',
-    name: 'Setting',
-    meta: {
-      authRequired: true,
-      userType: [1]
-    },
-    component: () => {
-      return import('../views/pages/setting/index.vue')
-    }
-  },
-  {
-    path: '/settings/create-key',
-    name: 'addKey',
-    meta: {
-      authRequired: true,
-      userType: [1]
-    },
-    component: () => {
-      return import('../views/pages/setting/create-key.vue')
-    }
-  },
-  {
-    path: '/settings/create-key/:id',
-    name: 'UpdateKey',
-    meta: {
-      authRequired: true,
-      userType: [1]
-    },
-    component: () => {
-      return import('../views/pages/setting/create-key.vue')
-    }
-  },
-  {
-    path: '/settings/create-appkey',
-    name: 'addAppKey',
-    meta: {
-      authRequired: true,
-      userType: [1]
-    },
-    component: () => {
-      return import('../views/pages/setting/create-appkey.vue')
-    }
-  },
-  {
-    path: '/settings/create-appkey/:id',
-    name: 'UpdateAppKey',
-    meta: {
-      authRequired: true,
-      userType: [1]
-    },
-    component: () => {
-      return import('../views/pages/setting/create-appkey.vue')
     }
   },
   // Define wildcard route for handling 404 errors
