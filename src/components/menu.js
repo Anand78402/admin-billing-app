@@ -11,14 +11,14 @@ export const menuItems = [
     icon: 'ri-user-fill',
     link: '/',
     userType: [1]
-  }
-  // {
-  //   id: 2,
-  //   label: 'menuitems.dashboard.devices',
-  //   icon: 'fas fa-thermometer',
-  //   link: '/device',
-  //   userType: [1,2]
-  // },
+  },
+  {
+    id: 2,
+    label: 'menuitems.dashboard.customer',
+    icon: 'fas fa-thermometer',
+    link: '/device',
+    userType: [1,2]
+  },
  
 ]
 

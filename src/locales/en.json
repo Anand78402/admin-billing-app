@@ -84,7 +84,7 @@
     "dashboard": {
       "text": "Dashboard",
       "user": "Users",
-      "devices": "Devices",
+      "customer": "Customer",
       "measurements": "Measurements",
       "settings" : "Settings"
     },
@@ -108,7 +108,7 @@
   "company": {
     "email": "Email",
     "fullName": "Full Name",
-    "verified": "Verified?",
+    "verified": "Verified",
     "active": "Active",
     "inActive": "Block",
     "status": "Status",
